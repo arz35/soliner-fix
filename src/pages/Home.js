@@ -5,6 +5,7 @@ import { NavBar } from '../components/NavBar'
 import ServicesLayout from '../components/ServicesLayout'
 import Tabs from '../components/ClientAndPartner'
 import { Footer } from '../components/Footer'
+import ScrollUp from '../components/ScrollUp'
 
 const Home = () => {
   return (
@@ -15,6 +16,7 @@ const Home = () => {
       <ServicesLayout />
       <Tabs />
       <Footer />
+      <ScrollUp />
     </div>
   )
 }

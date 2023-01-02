@@ -10,7 +10,7 @@ const LandingPage = () => {
           <div className='tagline'></div>
         </h1>
         <p>We provided Effective And Simple Solution For Your Industrial Needs</p>
-        <Container className='site-info'>
+        <div className='site-info'>
           <Row>
             <Col>
               <p>Phone</p>
@@ -25,7 +25,7 @@ const LandingPage = () => {
               <p><i class="fa-solid fa-location-dot"></i>Jl TB Simatupang Kav 89G 19th Floor</p>
             </Col>
           </Row>
-        </Container>
+        </div>
       </Fade>
     </div>
   )

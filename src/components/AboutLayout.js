@@ -4,11 +4,11 @@ import img35 from '../assets/img/img35.jpg'
 
 const AboutLayout = () => {
   return (
-    <div className='wrapper' id='about'>
+    <div className='wrapper'>
         <img src={img35} alt="" className='img35'/>
         <Fade right cascade>
             <div className='about-layout'>
-                <div className="text-about">| 
+                <div className="text-about" id='about'>| 
                 <p>ABOUT US</p>
                 </div>
 

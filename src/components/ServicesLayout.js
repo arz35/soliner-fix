@@ -12,7 +12,7 @@ const ServicesLayout = () => {
   return (
     <div>
         <Fade bottom cascade>
-            <Container className='services-layout'>
+            <Container className='services-layout' id='services'>
                 <div className='text-services'>Our Services</div>
                 <Row xs={1} md={2} xl={2}>
                     <Fade left delay={200}>
@@ -31,7 +31,7 @@ const ServicesLayout = () => {
                         <div className='content-wrapper'>
                         <img src={service02} alt="No Internet Connection"/>
                         <div className='overlay'>
-                            <div className='text-content'>Mechanical & Installation</div>
+                            <div className='text-content'>Mechanical Installation ( Static & Rotating )</div>
                         </div>
                         </div>
                     </Col>
@@ -53,7 +53,7 @@ const ServicesLayout = () => {
                         <div className='content-wrapper'>
                         <img src={service04} alt="No Internet Connection"/>
                         <div className='overlay'>
-                            <div className='text-content'>Civil Engineering</div>
+                            <div className='text-content'>Civil Works</div>
                         </div>
                         </div>
                     </Col>
